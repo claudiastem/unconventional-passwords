@@ -5,12 +5,29 @@ import '../dist/output.css'
 function App() {
 
   return (
-    <div className="flex justify-center items-center flex-col h-screen w-screen border-8 border-lime-400 bg-red-400">
-      <h1 className="border-4 border-red-600 bg-orange-600">Register</h1>
-      <div className="border-4 border-green-600 bg-violet-400 rounded-2xl h-2/3 w-1/3">
-        ciao
+    <div className="flex justify-center items-center flex-col h-screen w-screen bg-blue-950">
+
+      <div className="flex justify-between items-center flex-col absolute p-8 bg-violet-400 rounded-2xl h-2/3 min-w-8 w-1/2 ">
+        
+        <div class="form-title">
+          Registration Form
+        </div>
+
+        <div>
+          <div className="flex justify-center items-start flex-col">
+            <label for="username">Username</label>
+            <input type="text" id="username" />
+          </div>
+          <div className="flex justify-center items-start flex-col">
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+          </div>
+        </div>
+
+        <div></div>
 
       </div>
+
     </div>
   )
 }
