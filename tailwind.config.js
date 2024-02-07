@@ -9,7 +9,11 @@ module.exports = {
         
           ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        prompt: ['Prompt', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
